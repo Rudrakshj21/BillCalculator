@@ -37,11 +37,14 @@ export default function Bill({
     setBill("");
   }
   if (!activeFriend)
-    return <h3 className="default-tag">Split Bill With? </h3>;
+    return (
+      <div className="default-tag-wrapper">
+        <h3 className="default-tag">Split Bill With? </h3>
+      </div>
+    );
   return (
     <>
-      <h1>Split A bill with {activeFriend ? activeFriend.name : "User"}</h1>
-
+      <h1>Split A bill with {activeFriend.name}</h1>
       <div className="bill">
         <div>💰 Bill value</div>
         <input

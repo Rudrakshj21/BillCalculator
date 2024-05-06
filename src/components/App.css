@@ -97,6 +97,7 @@ body {
   border-radius: 10%;
   background-color: chocolate;
   margin-left: 40px;
+  cursor: pointer;
 }
 .new-friend .cancel {
   background-color: red;
@@ -115,4 +116,14 @@ body {
   margin-left: 20px;
   width: 100px;
   height: 30px;
+}
+
+.default-tag-wrapper{
+  /* border: solid 2px; */
+  padding: 50px;
+  font-size: 25px;
+}
+.default-tag{
+  font-family: cursive;
+  
 }
